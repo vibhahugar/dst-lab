@@ -10,11 +10,8 @@ int main()
     for(;;)		
     {
         
-        printf("1. Insert\n");
-        printf("2. Delete\n");
-        printf("3. Display\n");
-        printf("4. Exit\n");
-        printf("Enter Choice: ");
+        
+        printf("1. Insert\n 2. Delete\n 3. Display\n 4. Exit\n Enter Choice: ");
         scanf("%d",&ch);
 
         switch(ch)
