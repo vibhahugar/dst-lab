@@ -1,22 +1,15 @@
-/******************************************************************************
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 
 struct node 
 {
-    int num;                        //Data of the node
-    struct node *nextptr;           //Address of the next node
+    int num;                       
+    struct node *nextptr;           
 }*stnode;
 
-void createNodeList(int n); // function to create the list
-void displayList();         // function to display the list
+void createNodeList(int n); 
+void displayList();         
 
 int main()
 {
