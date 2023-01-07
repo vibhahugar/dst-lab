@@ -20,7 +20,7 @@ node* create()
     scanf("%d", &start->data);
     while(1)
     {
-        printf("Do you want to add an element? press 1 for yes\n");
+        printf("Do you want to add an element? press 0 for no\n");
         scanf("%d", &choice);
         if(choice!=0)
         {
@@ -140,13 +140,13 @@ void main()
                 break;
             case 3: reverse();
                 break;
-            case 4: printf("Do ypu want to create the first linked list if yes press 1\n");
+            case 4: printf("Do you want to create the first linked list if yes press 1\n");
                     scanf("%d",&c1);
                     if(c1==1)
                     start1=create();
                     else
                     start1=NULL;
-                    printf("Do ypu want to create the second linked list if yes press 2\n");
+                    printf("Do you want to create the second linked list if yes press 2\n");
                     scanf("%d",&c2);
                     if(c2==2)
                     start2=create();
