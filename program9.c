@@ -18,7 +18,7 @@ void create()
 	while(1)
 	{
 		int choice;
-	printf("Do you want to add an element? press 1 for yes\n");
+	printf("Do you want to add an element? press 0 for no\n");
         scanf("%d", &choice);
         if(choice!=0)
         {
